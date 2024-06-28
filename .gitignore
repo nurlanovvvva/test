@@ -9,7 +9,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+db.sqlite
+.env
 # Distribution / packaging
 .Python
 build/
@@ -128,9 +129,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
-env/
+.env/
 venv/
-ENV/
+.env/
 env.bak/
 venv.bak/
 
